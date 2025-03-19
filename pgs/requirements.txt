@@ -1,0 +1,3 @@
+# versions are just what i used to run the package
+numpy>=2.2.0
+pillow>=11.1.0

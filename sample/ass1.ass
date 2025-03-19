@@ -1,0 +1,20 @@
+﻿[Script Info]
+; This is an Advanced Sub Station Alpha v4+ script.
+Title: non PGS subs
+ScriptType: v4.00+
+PlayDepth: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,75,&H00FFFFFF,&H0000FFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:02.00,Default,,0,0,0,,This file shouldn't get modified by the script.
+Dialogue: 0,0:00:02.02,0:00:04.02,Default,,0,0,0,,It's not a PGS file,
+Dialogue: 0,0:00:04.05,0:00:06.05,Default,,0,0,0,,It's just a bog standard ASS file.
+Dialogue: 0,0:00:06.07,0:00:08.07,Default,,0,0,0,,Non PGS subtitles should also be retained
+Dialogue: 0,0:00:08.10,0:00:10.00,Default,,0,0,0,,and kept in order.

@@ -1,0 +1,10 @@
+venv/
+.venv/
+.idea/
+__pycache__
+*/__pycache__
+*.pyc
+.DS_Store
+/out_images/
+/out/
+/temp/
