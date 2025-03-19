@@ -7,7 +7,6 @@ from pgs import *
 import os
 from os import path
 from io import BytesIO, StringIO
-from glob import glob
 from dataclasses import dataclass
 import subprocess
 import re
@@ -30,7 +29,6 @@ FFPROBE_PATH = 'ffprobe'
 MAGICK_PATH = 'magick'
 MKVPROPEDIT_PATH = 'mkvpropedit'
 FIX_IMAGES_WITH_FFMPEG_AND_MAGIC = False
-
 
 TEMP_DIR = path.join('.','temp')
 OUT_DIR = path.join('.', 'out')

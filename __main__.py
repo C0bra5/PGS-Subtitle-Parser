@@ -87,7 +87,6 @@ def dump_sups_from_file(input_file_path, output_dir_path, ffprobe_path, ffmpeg_p
 		with open(output_file_path, 'wb') as f:
 			f.write(sub_data)
 		
-
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser(
 		formatter_class=argparse.RawDescriptionHelpFormatter,
